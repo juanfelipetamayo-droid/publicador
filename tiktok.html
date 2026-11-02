@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<title>Publicador</title>
+<!-- Reenvía el login de TikTok (code y state) al publicador local; sin el client secret, el code no sirve a nadie más. -->
+<script>location.replace("http://127.0.0.1:8765/callback/tiktok" + location.search);</script>
+<p>Volviendo al publicador… Si no avanza, comprueba que <code>app.py</code> está en marcha.</p>
+</html>
